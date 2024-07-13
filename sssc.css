@@ -1,0 +1,138 @@
+/* тут ничего нет */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1ea9f;
+    font-family: monospace;
+
+}
+.noselect {
+	color: #000000;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.pole {
+    position: absolute;
+    color: rgb(0, 255, 242);
+    margin: 1%;
+    width: 1500px;
+    height: 700px;
+    border: 1px solid #53b31fc9;
+
+}
+
+.mapp {
+    position: relative;
+    color: rgb(0, 0, 0);
+    height: 98%;
+    width: 66%;
+    border: 12px ridge #b3731fc9;
+    overflow-y: auto;
+    scrollbar-width: 1%;
+    scroll-behavior: smooth;
+}
+
+.infP:hover{
+    cursor: pointer;
+}
+.openM:hover{
+    cursor: alias;
+}
+
+.bigmap {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bigmapp {
+    opacity: 0;
+    fill: #7ceed3c9;
+    /* cursor: pointer; */
+}
+
+.bigmapp:hover {
+    opacity: 0.3;
+}
+
+.pmap:hover {
+    opacity: 0.6;
+    fill: #7ceed3c9;
+}
+
+.hlst {
+    opacity: 1;
+}
+
+.boton {
+    border: 5px ridge #53b31fc9;
+    padding: 2px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    border: 5px ridge #d21a1ac9;
+}
+
+.obv{
+    margin: 0 0 15px 0;
+    padding: 0 5px;
+    border-top: 4px solid #53b31fc9;
+    border-bottom: 4px solid #53b31fc9;
+    max-height: 55%;
+    overflow-y: auto;
+}
+
+.obv1{
+    margin: 15px 0 0 0;
+    padding-left: 5px;
+    border-top: 4px solid #53b31fc9;
+    /* border-bottom: 4px solid #53b31fc9; */
+    max-height: 30%;
+    overflow-y: auto;
+}
+
+.descritioni {
+    text-align: justify;
+    position: absolute;
+    font-family:Cambria;
+    padding: 10px 0 10px 0;
+    top: 0;
+    right: 0;
+    color: rgb(0, 0, 0);
+    height: 95%;
+    width: 31%;
+}
+.listting{
+cursor: pointer;
+}
+.listting:hover{
+ background-color: #ccee9b;
+    }
+.titdesc {
+    position: absolute;
+    font-weight: bolder;
+    font-size: 14px;
+    border: 5px ridge #ffffff;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+}
+
+.titdesc1 {
+    position: absolute;
+    padding: 5px;
+    border: 5px ridge #fbb23d;
+    border-bottom-left-radius:  15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #dedede;
+}
